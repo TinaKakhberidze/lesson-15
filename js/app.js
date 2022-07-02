@@ -120,11 +120,11 @@ do {
 
 //5.
 let myArr = [];
-let o = 0;
+let i = 0;
 let myArrLength = myArr.length;
-myArr.push(o * o);
+myArr.push(i * i);
 console.log(myArr);
 
-for (let o = 0; o < 1000; o++) {
-  console.log(myArr, o);
+for (let i = 0; i < 1000; i++) {
+  console.log(myArr, i, "stop");
 }
