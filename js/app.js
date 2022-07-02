@@ -94,7 +94,7 @@ switch (currentDay) {
 }
 
 // 2.
-for (let i = 0; i < 100; i++) {
+for (let i = 0; i < 99; i++) {
   console.log("you are beautiful", i);
 }
 
@@ -126,5 +126,5 @@ myArr.push(i * i);
 console.log(myArr);
 
 for (let i = 0; i < 1000; i++) {
-  console.log(myArr, i, "stop");
+  console.log(myArr, i);
 }
